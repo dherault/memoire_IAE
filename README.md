@@ -1,6 +1,6 @@
 # Mémoire
 
-My master thesis at Sorbonne Graduate Business School (IAE de Paris).
+Master thesis at Sorbonne Graduate Business School (IAE de Paris).
 
 ## License
 

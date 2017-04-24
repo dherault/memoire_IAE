@@ -1,8 +1,14 @@
-\documentclass{article}
+\documentclass[a4paper,12pt]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amsfonts} % for mathbb
 
-% \usepackage{amsmath}
+% \newcommand\tab[1][1cm]{\hspace*{#1}}
+% \newcommand\tab[1]{\quad*{#1}}
+\newcommand\mbold[1]{\mathbf{#1}}
+\newcommand\mshal[1]{\mathbb{#1}} % shallow
 
-\title{M\'{e}moire}
+\title{M\'{e}moire de fin d'études - copyright 2016 - present David H\'{e}rault, all rights reserved}
 \date{2016-11-20}
 \author{David H\'{e}rault}
 
@@ -19,5 +25,14 @@
 \section{Data groups, shapes and relations}
 
   Hello World!
+
+\subsection{Utilisateurs et entreprises}
+bs
+Utilisateurs\\
+$\mbold{U} = \{ u_1, ..., u_{n_U} \}, n_U \in \mshal{R}_{+}^{*}$\\
+\\
+Entreprises\\ov
+$\mbold{E}_{Larzac-machines} = \{ u_e\} \in \mbold{U}^{n_{U_{Larzac-machines}}}$\\
+$\forall u \in \mbold{U}, \exists U \in \mbold{E} / u \in U$
 
 \end{document}
